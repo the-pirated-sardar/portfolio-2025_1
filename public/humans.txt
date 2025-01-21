@@ -1,0 +1,52 @@
+ _____    ____
+|  __ \  |  __| 
+| |__| | | |__   
+|  ___/  |__  |  
+| |       __| | 
+|_|      |____|  
+
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DESIGNER:
+
+Prateek Arora
+
+bsky.app/profile/prateek-arora.com
+github.com/the_pirated_sardar
+_______________________________________________________________________________
+
+DESIGN TOOLS:
+
+Figma
+Photoshop
+Blender
+_______________________________________________________________________________
+
+TECHNOLOGY:
+
+React
+Remix
+Three.js
+Framer Motion
+_______________________________________________________________________________
+
+FONTS:
+
+Gotham
+IPA Gothic Regular
+Hiragino Kaku Gothic W8
+_______________________________________________________________________________
+
+
+
+Adapted from the work of:
+
+Hamish Williams
+Hand crafted design & web development
+
+twitter.com/hamishmw
+github.com/hamishmw
