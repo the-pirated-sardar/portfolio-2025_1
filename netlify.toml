@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build" # Build command
+  publish = "public" # Directory for static assets
+  functions = "netlify/functions" # Directory for serverless functions
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
