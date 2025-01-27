@@ -14,7 +14,11 @@ export const navLinks = [
     pathname: '/articles',
   },
   {
-    label: 'Contact',
+    label: 'Tech Stack',
+    pathname: '/tech-stack'
+  },
+  {
+    label: 'Resume',
     pathname: '/contact',
   },
 ];

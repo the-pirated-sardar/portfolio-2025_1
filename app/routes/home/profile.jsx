@@ -21,16 +21,22 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I'm Prateek, currently an undergraduate Computing Science student at {' '}
+      <Link href="https://www.sfu.ca/fas/computing.html">Simon Fraser University</Link>. 
+      I have a variety of experience across multiple domains, like software/app development, 
+      UI/UX design, automation logistics, and prototyping.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      As someone with a computing background, I have been able to will ideas into existence through the power of binary.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      I am a Creative, who is driven by the need to help the masses better understand the world and themselves. My creative
+      edge is what dictates my sense of purpose, just as it did for those who have made strides in any industry.
+    </Text>
+      
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      If you’re interested in the tools and software I
+      use check out my <Link href="/uses">uses page</Link>.
     </Text>
   </Fragment>
 );
@@ -55,7 +61,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
           <div className={styles.content} ref={nodeRef}>
             <div className={styles.column}>
               <ProfileText visible={visible} titleId={titleId} />
-              <Button
+              {/* <Button
                 secondary
                 className={styles.button}
                 data-visible={visible}
@@ -63,8 +69,18 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 icon="send"
               >
                 Send me a message
+              </Button> */}
+              <Button
+                secondary
+                className={styles.button}
+                data-visible={visible}
+                href="mailto:lolliji225@gmail.com?subject=From Your Portfolio Website: "
+                icon="send"
+              >
+                Send me an email
               </Button>
             </div>
+            
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
                 <Divider
