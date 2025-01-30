@@ -1,3 +1,7 @@
+name = "portfolio-2025"  # Add this line
+
+compatibility_date = "2023-01-01"  # Keep your existing settings
+
 kv_namespaces = [
   { id = "2d229401262d4d46854416c7c8f4917b", binding="MY_KV" }
 ]
