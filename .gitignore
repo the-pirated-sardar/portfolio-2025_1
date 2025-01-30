@@ -1,7 +1,9 @@
 node_modules
 
 /.cache
-/build
+# Ignore everything in build, except for the client output
+/build/*
+!/build/client
 .env
 
 .wrangler
