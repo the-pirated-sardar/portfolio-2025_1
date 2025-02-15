@@ -15,4 +15,5 @@ format = "service-worker"
 [dev]
 port = 7777
 
+[pages]
 compatibility_flags = ["nodejs_compat"]
