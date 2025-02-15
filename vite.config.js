@@ -17,7 +17,23 @@ export default defineConfig({
     assetsInlineLimit: 1024,
     rollupOptions: {
       external: ['nodemailer'], // Exclude nodemailer from bundling
+      output: {
+        manualChunks(id) {
+          // Split large dependencies into separate chunks
+          if (id.includes('node_modules/three')) {
+            return 'three';
+          }
+          if (id.includes('node_modules/@react-three')) {
+            return 'react-three';
+          }
+          if (id.includes('node_modules/three-stdlib')) {
+            return 'three-stdlib';
+          }
+        },
+        chunkFileNames: 'assets/[name]-[hash].js',
+      },
     },
+    chunkSizeWarningLimit: 1000, // Increase chunk size warning limit
   },
   server: {
     port: 7777,
