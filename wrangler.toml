@@ -6,3 +6,14 @@ kv_namespaces = [
   { id = "2d229401262d4d46854416c7c8f4917b", binding="MY_KV" }
 ]
 pages_build_output_dir = "./build/client"
+
+[build]
+command = "npm run build"
+[build.upload]
+format = "service-worker"
+
+[dev]
+port = 7777
+
+[compatibility_flags]
+nodejs_compat = true

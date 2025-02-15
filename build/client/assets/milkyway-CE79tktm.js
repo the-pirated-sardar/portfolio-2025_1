@@ -1,0 +1,1 @@
+const s="/assets/earth-DvZudj9K.glb",a="/assets/milkyway-nx-Ds_hwpSC.hdr",t="/assets/milkyway-ny-BqhFvupA.hdr",y="/assets/milkyway-nz-D6l6T-pv.hdr",m="/assets/milkyway-px-BjIdbMt0.hdr",w="/assets/milkyway-py-BD6pEbZF.hdr",n="/assets/milkyway-pz-Bx3WFS88.hdr",e="/assets/milkyway-Vkpv7LbT.jpg";export{a,t as b,y as c,m as d,w as e,n as f,s as g,e as m};
