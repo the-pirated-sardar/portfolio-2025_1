@@ -51,6 +51,11 @@ export default defineConfig({
           route('/', 'routes/home/route.js', { index: true });
         });
       },
+      future: {
+        v7: true,
+        v7_routeConcurrent: true,
+        v7_routeModuleLinking: true,
+      },
     }),
     jsconfigPaths(),
   ],
