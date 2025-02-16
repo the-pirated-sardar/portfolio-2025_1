@@ -34,7 +34,7 @@
     "three": "^0.161.0",
     "three-stdlib": "^2.29.4",
     "@jridgewell/resolve-uri": "latest",
-    "@rollup/plugin-inject": "^2.2.0",
+    "@rollup/plugin-inject": "^5.0.0",
     "lru-cache": "^7.17.0",
     "fast-glob": "^3.2.12",
     "globby": "^14.0.1",
