@@ -21,6 +21,7 @@
     "@mdx-js/react": "^3.0.1",
     "@remix-run/react": "^2.7.1",
     "@remix-run/serve": "^2.7.1",
+    "@remix-run/express": "^2.7.1",
     "framer-motion": "11.0.5",
     "isbot": "^4.1.0",
     "miniflare": "^3.20231030.4",
