@@ -1,5 +1,4 @@
-import { json } from '@remix-run/node';
-import { createCookieSessionStorage } from '@remix-run/session';
+import { json, createCookieSessionStorage } from '@remix-run/node';
 
 export async function action({ request }) {
   const formData = await request.formData();
