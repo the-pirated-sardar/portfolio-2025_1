@@ -7,8 +7,5 @@ kv_namespaces = [
 ]
 pages_build_output_dir = "./build/client"
 
-[build]
-command = "npm run build"
-
 [dev]
 port = 7777
