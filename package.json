@@ -34,13 +34,12 @@
     "three": "^0.161.0",
     "three-stdlib": "^2.29.4",
     "@jridgewell/resolve-uri": "latest",
-    "@jridgewell/sourcemap-codec": "latest",
-    "@rollup/plugin-inject": "latest",
-    "lru-cache": "latest",
+    "@rollup/plugin-inject": "^2.2.0",
+    "lru-cache": "^7.17.0",
     "fast-glob": "^3.2.12",
-    "glob": "^9.0.0",
+    "globby": "^14.0.1",
     "del-cli": "^4.0.1",
-    "rimraf": "^4.0.0"
+    "rimraf": "^4.4.0"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
